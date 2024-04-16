@@ -407,7 +407,6 @@ margin-left: 80px;
   text-decoration: none;
   display: flex;
   align-items: center; 
-  column-gap: auto;
 }
 
 .footer__social-icon {
