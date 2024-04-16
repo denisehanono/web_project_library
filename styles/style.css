@@ -353,7 +353,7 @@
 
 .footer {
   box-sizing: border-box;
-color: #1f1f1f; 
+  color: #1f1f1f; 
   background-color:#1f1f1f;
   color: #f2f2f2;
   font-family: Arial, Helvetica, sans-serif;
@@ -410,7 +410,6 @@ margin-left: 80px;
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
