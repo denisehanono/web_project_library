@@ -353,18 +353,20 @@
 
 .footer {
   box-sizing: border-box;
-  color: #1f1f1f; 
-  background-color:#1f1f1f;
-  color: #f2f2f2;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 60px 80px;
   font-size: 16px;
-  padding: 60px 80px;  
-  margin: 0px;
+  line-height: 20px;
 }
 
 .footer__columns {
   display: flex;
-  gap: 80px;
+}
+
+.footer__column {
+   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -397,19 +399,20 @@ margin-left: 80px;
 .footer__list-item {
   list-style-type: none;
   margin-bottom: 16px;
+
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
   display: flex;
-  align-items: baseline; 
-  column-gap: 20px;
+  align-items: center; 
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
