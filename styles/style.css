@@ -351,9 +351,8 @@
   margin: 10px 0 0 0;
 }
 
-/* box-sizing: border-box; */
-
 .footer {
+  box-sizing: border-box;
 color: #1f1f1f; 
   background-color:#1f1f1f;
   color: #f2f2f2;
@@ -374,7 +373,7 @@ color: #1f1f1f;
 }
 
 .footer__column_content_social {
-margin-left: 0;
+margin-left: 0px;
 }
 
 
@@ -384,7 +383,7 @@ margin-left: 0;
 }
 
 .footer__column-heading {
-  margin: 0 0 20px 0;
+  margin: 0px 0px 20px 0px;
 }
 
 .footer__list {
@@ -404,8 +403,8 @@ margin-left: 0;
   color: white;
   text-decoration: none;
   display: flex;
-  align-items: baseline; 
-  column-gap: normal;
+  align-items: flex-start; 
+  column-gap: 20px;
 }
 
 .footer__social-icon {
